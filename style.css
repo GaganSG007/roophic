@@ -36,6 +36,16 @@ body.fade-out {
   transition: opacity 0.4s ease;
 }
 
+a {
+  text-decoration: none;
+  color: inherit; /* or use a custom color like #000 for black */
+}
+
+a:hover {
+  text-decoration: underline; /* optional hover effect */
+}
+
+
 /* Header */
 header {
   background: linear-gradient(to right, #ffdde1, #fbd2e0);
