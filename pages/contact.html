@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="../index.html" class="logo">Roophic</a>
+      <ul class="nav-links">
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-form" data-aos="fade-up">
+    <div class="form-container">
+      <h2>Contact Us</h2>
+      <p>If you want to inquire about any saree, reach us via WhatsApp or use this form.</p>
+
+      <a href="https://wa.me/918618075915?text=Hi%2C%20I%20am%20interested%20in%20your%20sarees" target="_blank" class="whatsapp-btn">
+  Chat on WhatsApp
+</a>
+    <form action="https://formspree.io/f/xyzpdrlz" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Roophic. All rights reserved.</p>
+  </footer>
+
+<script>
+  const form = document.querySelector("form");
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+      alert("Thank you! Your message has been sent.");
+      form.reset();
+    } else {
+      alert("Oops! Something went wrong. Please try again.");
+    }
+  });
+</script>
+
+<script>
+  // Dark mode toggle
+  const toggleBtn = document.querySelector('.toggle-theme');
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+    });
+  }
+  if (localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark-mode');
+  }
+
+  // Image modal
+  document.addEventListener("DOMContentLoaded", function () {
+    const images = document.querySelectorAll(".saree-card img");
+    const modal = document.createElement("div");
+    modal.className = "image-modal";
+    modal.innerHTML = "<img src='' alt='Saree'><span style='position:absolute;top:20px;right:30px;font-size:30px;color:white;cursor:pointer;'>&times;</span>";
+    document.body.appendChild(modal);
+
+    const modalImg = modal.querySelector("img");
+    const closeBtn = modal.querySelector("span");
+
+    images.forEach(img => {
+      img.addEventListener("click", () => {
+        modalImg.src = img.src;
+        modal.style.display = "flex";
+      });
+    });
+
+    closeBtn.addEventListener("click", () => {
+      modal.style.display = "none";
+    });
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) modal.style.display = "none";
+    });
+  });
+</script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+  // Page fade-out on link click
+  document.addEventListener("DOMContentLoaded", () => {
+    const links = document.querySelectorAll("a[href]");
+
+    links.forEach(link => {
+      const url = new URL(link.href);
+      if (url.hostname === location.hostname) {
+        link.addEventListener("click", e => {
+          e.preventDefault();
+          document.body.classList.add("fade-out");
+          setTimeout(() => {
+            window.location.href = link.href;
+          }, 300); // Match with CSS transition
+        });
+      }
+    });
+
+    // Fade in effect
+    document.body.classList.add("fade-in");
+  });
+</script>
+
+</body>
+</html>

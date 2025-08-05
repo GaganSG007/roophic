@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roophic</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter&display=swap" rel="stylesheet">
+  <style>
+    body.fade-in {
+      opacity: 0;
+      animation: fadeIn 0.3s ease forwards;
+    }
+    body.fade-out {
+      opacity: 1;
+      animation: fadeOut 0.3s ease forwards;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    @keyframes fadeOut {
+      to { opacity: 0; }
+    }
+    #searchInput {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="../index.html" class="logo">Roophic</a>
+      
+      <div class="nav-right">
+        <a href="pages/contact.html" class="nav-link">Contact Us</a>
+        <button class="toggle-theme">Toggle Theme</button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" data-aos="fade-up">
+    <h1>Discover Elegance in Every Thread</h1>
+    <p>Handpicked premium sarees for every occasion.</p>
+  </section>
+
+  <section style="text-align: center; margin-top: 2rem;">
+    <input type="text" id="searchInput" placeholder="Search sarees..." style="padding: 0.5rem; width: 250px; border-radius: 6px; border: 1px solid #ccc;" />
+  </section>
+
+  <section class="gallery" id="saree-gallery">
+    <!-- Sarees will be dynamically added here -->
+  </section>
+
+  <footer>
+    <p>© 2025 Roophic. Crafted with love.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+  <script>
+    // Dark mode toggle
+    const toggleBtn = document.querySelector('.toggle-theme');
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+      });
+    }
+    if (localStorage.getItem('theme') === 'dark') {
+      document.body.classList.add('dark-mode');
+    }
+
+    // Image modal functionality
+    document.addEventListener("DOMContentLoaded", function () {
+      const images = document.querySelectorAll(".saree-card img");
+      const modal = document.createElement("div");
+      modal.className = "image-modal";
+      modal.innerHTML = "<img src='' alt='Saree'><span style='position:absolute;top:20px;right:30px;font-size:30px;color:white;cursor:pointer;'>&times;</span>";
+      document.body.appendChild(modal);
+
+      const modalImg = modal.querySelector("img");
+      const closeBtn = modal.querySelector("span");
+
+      images.forEach(img => {
+        img.addEventListener("click", () => {
+          modalImg.src = img.src;
+          modal.style.display = "flex";
+        });
+      });
+
+      closeBtn.addEventListener("click", () => {
+        modal.style.display = "none";
+      });
+      modal.addEventListener("click", (e) => {
+        if (e.target === modal) modal.style.display = "none";
+      });
+    });
+
+    // Smooth page transition
+    document.addEventListener("DOMContentLoaded", () => {
+      document.body.classList.add("fade-in");
+
+      const links = document.querySelectorAll("a[href]");
+      links.forEach(link => {
+        const url = new URL(link.href);
+        if (url.hostname === location.hostname) {
+          link.addEventListener("click", e => {
+            e.preventDefault();
+            document.body.classList.add("fade-out");
+            setTimeout(() => {
+              window.location.href = link.href;
+            }, 300);
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Saree Details</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+    <a href="../index.html" class="logo">Roophic</a>
+    
+    <div class="nav-right">
+      <a href="contact.html" class="nav-link">Contact Us</a>
+      <button class="toggle-theme">Toggle Theme</button>
+    </div>
+</nav>
+
+  </header>
+
+  <section class="saree-detail" id="saree-detail">
+    <!-- JS will populate saree details here -->
+  </section>
+
+  <footer>
+    <p>© 2025 Roophic. All rights reserved.</p>
+  </footer>
+
+  <script src="sareeDetail.js" defer></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Theme setup
+      const toggleBtn = document.querySelector('.toggle-theme');
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', () => {
+          document.body.classList.toggle('dark-mode');
+          localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+        });
+      }
+      if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-mode');
+      }
+
+      // Page transition
+      const links = document.querySelectorAll("a[href]");
+      links.forEach(link => {
+        const url = new URL(link.href);
+        if (url.hostname === location.hostname) {
+          link.addEventListener("click", e => {
+            e.preventDefault();
+            document.body.classList.add("fade-out");
+            setTimeout(() => {
+              window.location.href = link.href;
+            }, 300);
+          });
+        }
+      });
+
+      // Fade-in effect
+      document.body.classList.add("fade-in");
+
+      // Initialize AOS
+      AOS.init({ duration: 500, once: true });
+    });
+  </script>
+
+</body>
+</html>
