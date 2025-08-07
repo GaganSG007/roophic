@@ -9,7 +9,7 @@ const sarees = [
   {
     "id": 2,
     "name": "Royal Maroon Mirrorwork",
-    "price": "₹2,299 (Negotiable)",
+    "price": "₹2,199 (Negotiable)",
     "image": "../images/saree2.jpg",
     "description": "Rich maroon saree featuring intricate mirrorwork and multicolor thread embroidery on the border. A statement piece for festive occasions, weddings, or traditional functions, blending cultural craftsmanship with modern appeal."
   },
@@ -23,7 +23,7 @@ const sarees = [
   {
     "id": 4,
     "name": "Peacock Royale Weave",
-    "price": "₹2,299 (Negotiable)",
+    "price": "₹2,199 (Negotiable)",
     "image": "../images/saree4.jpg",
     "description": "Rich navy and olive silk saree featuring intricate golden zari work and majestic blue peacock motifs on the pallu. A regal choice for weddings, receptions, or grand traditional events."
   },
@@ -44,7 +44,7 @@ const sarees = [
   {
     "id": 7,
     "name": "Pista Silk Glow Saree",
-    "price": "₹1,899 (Negotiable)",
+    "price": "₹1,999 (Negotiable)",
     "image": "../images/saree1.jpg",
     "description": "Shimmering pista green silk saree with subtle zari detailing, perfect for festive wear or elegant day events."
   },
@@ -65,7 +65,7 @@ const sarees = [
   {
     "id": 10,
     "name": "Pattu Checks Glow Saree",
-    "price": "₹2,199 (Negotiable)",
+    "price": "₹2,299 (Negotiable)",
     "image": "../images/saree10.jpg",
     "description": "Bold green and navy checkered pattu-style saree with a shimmering gold zari border. A striking blend of tradition and color, perfect for festive events or traditional functions."
   },
@@ -100,7 +100,7 @@ const sarees = [
   {
     "id": 15,
     "name": "Teal Radiance Zari Saree",
-    "price": "₹2,299 (Negotiable)",
+    "price": "₹2,199 (Negotiable)",
     "image": "../images/saree15.jpg",
     "description": "Striking teal saree with oversized gold and turquoise woven circles, highlighted with zari tassels and intricate detailing. A perfect blend of statement and tradition for festive occasions."
   },
@@ -184,7 +184,7 @@ const sarees = [
   {
     "id": 27,
     "name": "Dusky Petal Linen Saree",
-    "price": "₹1,999 (Negotiable)",
+    "price": "₹1,899 (Negotiable)",
     "image": "../images/saree27.jpg",
     "description": "A muted linen saree with vintage floral prints and a regal gold zari border — perfect for understated elegance with a touch of old-world charm."
   },
