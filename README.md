@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://gagansg007.github.io/roophic/">
-    <img src="https://gagansg007.github.io/roophic/images/saree1.jpg" alt="Roophic Preview" width="60%">
+    <img src="https://gagansg007.github.io/roophic/images/saree20.jpg" alt="Roophic Preview" width="60%">
   </a>
 </p>
 
