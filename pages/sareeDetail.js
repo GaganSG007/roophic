@@ -45,7 +45,7 @@ const sarees = [
     "id": 7,
     "name": "Pista Silk Glow Saree",
     "price": "₹1299",
-    "image": "../images/saree1.jpg",
+    "image": "../images/saree7.jpg",
     "description": "Shimmering pista green silk saree with subtle zari detailing, perfect for festive wear or elegant day events."
   },
   {
