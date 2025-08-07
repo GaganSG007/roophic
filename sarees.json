@@ -2,225 +2,225 @@
   {
     "id": 1,
     "name": "Peacock Mist Silk",
-    "price": "₹1,999 (Negotiable)",
+    "price": "₹1399",
     "image": "images/saree1.jpg",
-    "description": "Graceful ethnic saree for festive wear."
+    "description": "Graceful silk saree with peacock motifs for festive charm."
   },
   {
     "id": 2,
     "name": "Royal Maroon Mirrorwork",
-    "price": "₹2,199 (Negotiable)",
+    "price": "₹1599",
     "image": "images/saree2.jpg",
-    "description": "Festive saree with intricate mirror embroidery."
+    "description": "Elegant maroon saree with mirror embroidery for festive occasions."
   },
   {
     "id": 3,
     "name": "Pink Zari Gleam",
-    "price": "₹1,499 (Negotiable)",
+    "price": "₹1199",
     "image": "images/saree3.jpg",
     "description": "Graceful ethnic saree for festive wear."
   },
   {
     "id": 4,
     "name": "Peacock Royale Weave",
-    "price": "₹2,199 (Negotiable)",
+    "price": "₹1499",
     "image": "images/saree4.jpg",
-    "description": "Graceful ethnic saree for festive wear."
+    "description": "Rich woven saree with peacock elegance and golden charm."
   },
   {
     "id": 5,
     "name": "Rosewood Handloom Cotton",
-    "price": "₹999 (Negotiable)",
+    "price": "₹999",
     "image": "images/saree5.jpg",
-    "description": "Lightweight cotton with breezy elegance."
+    "description": "Lightweight handloom cotton for casual elegance."
   },
   {
     "id": 6,
     "name": "Midnight Garden Embroidered Saree",
-    "price": "₹2,499 (Negotiable)",
+    "price": "₹1799",
     "image": "images/saree6.jpg",
-    "description": "Graceful ethnic saree for festive wear."
+    "description": "Intricately embroidered saree with floral midnight hues."
   },
   {
     "id": 7,
     "name": "Pista Silk Glow Saree",
-    "price": "₹1,999 (Negotiable)",
+    "price": "₹1299",
     "image": "images/saree1.jpg",
-    "description": "Graceful ethnic saree for festive wear."
+    "description": "Soft silk saree with subtle glow and pastel elegance."
   },
   {
     "id": 8,
     "name": "Peacock Tales Kalamkari Saree",
-    "price": "₹1,999 (Negotiable)",
+    "price": "₹1399",
     "image": "images/saree8.jpg",
-    "description": "Artistic kalamkari prints with cultural flair."
+    "description": "Traditional kalamkari saree with peacock artistry."
   },
   {
     "id": 9,
     "name": "Whispering Leaves Linen Saree",
-    "price": "₹1,499 (Negotiable)",
+    "price": "₹1199",
     "image": "images/saree9.jpg",
-    "description": "Linen base with floral or woven accents."
+    "description": "Linen saree with soft leaf-inspired designs."
   },
   {
     "id": 10,
     "name": "Pattu Checks Glow Saree",
-    "price": "₹2,299 (Negotiable)",
+    "price": "₹1499",
     "image": "images/saree10.jpg",
-    "description": "Traditional silk with golden zari highlights."
+    "description": "Pattu-style saree with vibrant checks and gold accents."
   },
   {
     "id": 11,
     "name": "Ikat Dream Fusion Saree",
-    "price": "₹1,999 (Negotiable)",
+    "price": "₹1399",
     "image": "images/saree11.jpg",
-    "description": "Contemporary ikat-style artistic design."
+    "description": "Fusion ikat saree with bold abstract patterns."
   },
   {
     "id": 12,
     "name": "Zari Garden Bloom Saree",
-    "price": "₹2,199 (Negotiable)",
+    "price": "₹1499",
     "image": "images/saree12.jpg",
-    "description": "Graceful ethnic saree for festive wear."
+    "description": "Floral print saree with radiant zari detailing."
   },
   {
     "id": 13,
     "name": "Peacock Glow Dual-Tone Saree",
-    "price": "₹1,899 (Negotiable)",
+    "price": "₹1299",
     "image": "images/saree13.jpg",
-    "description": "Graceful ethnic saree for festive wear."
+    "description": "Vibrant dual-tone silk saree with festive motifs."
   },
   {
     "id": 14,
     "name": "Temple Bloom Zari Saree",
-    "price": "₹1,999 (Negotiable)",
+    "price": "₹1399",
     "image": "images/saree14.jpg",
-    "description": "Graceful ethnic saree for festive wear."
+    "description": "Traditional temple-inspired saree with golden blooms."
   },
   {
     "id": 15,
     "name": "Teal Radiance Zari Saree",
-    "price": "₹2,199 (Negotiable)",
+    "price": "₹1499",
     "image": "images/saree15.jpg",
-    "description": "Graceful ethnic saree for festive wear."
+    "description": "Teal saree with luminous zari highlights."
   },
   {
     "id": 16,
     "name": "Moonlight Mist Woven Saree",
-    "price": "₹1,799 (Negotiable)",
+    "price": "₹1199",
     "image": "images/saree16.jpg",
-    "description": "Graceful ethnic saree for festive wear."
+    "description": "Woven saree with soft grey hues and classic motifs."
   },
   {
     "id": 17,
     "name": "Sunset Olive Zari Saree",
-    "price": "₹2,299 (Negotiable)",
+    "price": "₹1499",
     "image": "images/saree17.jpg",
-    "description": "Soft silk saree with delicate zari details."
+    "description": "Olive silk saree with warm sunset tones and zari work."
   },
   {
     "id": 18,
     "name": "Royal Breeze Brocade Saree",
-    "price": "₹2,499 (Negotiable)",
+    "price": "₹1799",
     "image": "images/saree18.jpg",
-    "description": "Brocade weave with antique richness."
+    "description": "Royal blue brocade saree with antique finish."
   },
   {
     "id": 19,
     "name": "Ocean Flame Silk Saree",
-    "price": "₹1,899 (Negotiable)",
+    "price": "₹1299",
     "image": "images/saree19.jpg",
-    "description": "Graceful ethnic saree for festive wear."
+    "description": "Bold silk saree with ocean and fire contrast hues."
   },
   {
     "id": 20,
     "name": "Emerald Noir Cotton Saree",
-    "price": "₹1,499 (Negotiable)",
+    "price": "₹1199",
     "image": "images/saree20.jpg",
-    "description": "Graceful ethnic saree for festive wear."
+    "description": "Cotton saree with bold black and emerald accents."
   },
   {
     "id": 21,
     "name": "Aqua Bloom Organza Saree",
-    "price": "₹1,999 (Negotiable)",
+    "price": "₹1399",
     "image": "images/saree21.jpg",
-    "description": "Soft silk saree with delicate zari details."
+    "description": "Light organza saree with floral pastel shades."
   },
   {
     "id": 22,
     "name": "Ruby Sky Handloom Saree",
-    "price": "₹2,199 (Negotiable)",
+    "price": "₹1499",
     "image": "images/saree22.jpg",
-    "description": "Graceful ethnic saree for festive wear."
+    "description": "Handloom saree with ruby and denim tone fusion."
   },
   {
     "id": 23,
     "name": "Champagne Whisper Tissue Saree",
-    "price": "₹1,499 (Negotiable)",
+    "price": "₹1199",
     "image": "images/saree23.jpg",
-    "description": "Shimmering tissue fabric with elegant glow."
+    "description": "Tissue saree with soft shimmer and graceful tone."
   },
   {
     "id": 24,
     "name": "Olive Dusk Handwoven Saree",
-    "price": "₹1,999 (Negotiable)",
+    "price": "₹1299",
     "image": "images/saree24.jpg",
-    "description": "Graceful ethnic saree for festive wear."
+    "description": "Handwoven olive saree with golden accents."
   },
   {
     "id": 25,
     "name": "Indigo Bloom Linen Saree",
-    "price": "₹1,799 (Negotiable)",
+    "price": "₹1199",
     "image": "images/saree25.jpg",
-    "description": "Linen base with floral or woven accents."
+    "description": "Floral linen saree with indigo artful charm."
   },
   {
     "id": 26,
     "name": "Twilight Rose Organza Saree",
-    "price": "₹1,999 (Negotiable)",
+    "price": "₹1399",
     "image": "images/saree26.jpg",
-    "description": "Elegant sheer organza with delicate patterns."
+    "description": "Dreamy rose organza with delicate golden border."
   },
   {
     "id": 27,
     "name": "Dusky Petal Linen Saree",
-    "price": "₹1,899 (Negotiable)",
+    "price": "₹1299",
     "image": "images/saree27.jpg",
-    "description": "Linen base with floral or woven accents."
+    "description": "Vintage floral prints on dusky linen base."
   },
   {
     "id": 28,
     "name": "Mint Glint Cotton Silk Saree",
-    "price": "₹2,299 (Negotiable)",
+    "price": "₹1499",
     "image": "images/saree28.jpg",
-    "description": "Lightweight cotton with breezy elegance."
+    "description": "Mint green cotton-silk with soft zari gleam."
   },
   {
     "id": 29,
     "name": "Lavender Radiance Banarasi Saree",
-    "price": "₹2,499 (Negotiable)",
+    "price": "₹1799",
     "image": "images/saree29.jpg",
-    "description": "Traditional Banarasi weave with rich motifs."
+    "description": "Lavender Banarasi silk with radiant gold detailing."
   },
   {
     "id": 30,
     "name": "Teal Ember Kanchipuram Saree",
-    "price": "₹2,499 (Negotiable)",
+    "price": "₹1899",
     "image": "images/saree30.jpg",
-    "description": "Traditional silk with golden zari highlights."
+    "description": "Kanchipuram weave in teal and ember hues."
   },
   {
     "id": 31,
     "name": "Royal Zest Banarasi Silk Saree",
-    "price": "₹2,499 (Negotiable)",
+    "price": "₹1899",
     "image": "images/saree31.jpg",
-    "description": "Traditional Banarasi weave with rich motifs."
+    "description": "Royal blue Banarasi saree with classic motifs."
   },
   {
     "id": 32,
     "name": "Ocean Mist Soft Silk Saree",
-    "price": "₹2,299 (Negotiable)",
+    "price": "₹1599",
     "image": "images/saree32.jpg",
-    "description": "Soft silk saree with delicate zari details."
+    "description": "Soft silk saree with ocean blue and zari detail."
   }
 ]
