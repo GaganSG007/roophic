@@ -242,7 +242,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <h2>${selectedSaree.name}</h2>
           <p>${selectedSaree.description}</p>
           <p><strong>${selectedSaree.price}</strong></p>
-          <a href="https://wa.me/918618075915?text=Hi%2C%20I%20am%20interested%20in%20your%20saree%20(${encodeURIComponent(selectedSaree.name)})" 
+          <a href="https://wa.me/919876543210?text=Hi%2C%20I%20am%20interested%20in%20your%20saree%20(${encodeURIComponent(selectedSaree.name)})" 
              target="_blank" class="enquire-button">
             Enquire on WhatsApp
           </a>
